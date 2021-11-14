@@ -1,0 +1,134 @@
+/* ------------------- */
+/* ------BASE CSS----- */
+/* ------------------- */
+html {
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  color: #f4ffd1;
+  background-color: #0b0b0b;
+  position: relative;
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  color: #581914;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #f4ffd1, -1px -1px 1px #f4ffd1, 1px -1px 1px #f4ffd1, -1px 1px 1px #f4ffd1, 0 1px 1px #f4ffd1, 1px 0 1px #f4ffd1, 0 0 1px #f4ffd1, 0 -1px 1px #f4ffd1, -1px 0 1px #f4ffd1, 3px 3px 1px #581914, -3px 3px 1px #581914, 3px -3px 1px #581914, -3px -3px 1px #581914, 3px 2px 1px #581914, 2px 3px 1px #581914, 2px 2px 1px #581914, 2px -3px 1px #581914, -3px 2px 1px #581914, 3px -2px 1px #581914, -2px 3px 1px #581914, -2px -2px 1px #581914, -3px -2px 1px #581914, -2px -3px 1px #581914, -2px -1px 1px #581914, -1px -2px 1px #581914, -1px 2px 1px #581914, 2px -1px 1px #581914, 1px -2px 1px #581914, -2px 1px 1px #581914, 2px 1px 1px #581914, 1px 2px 1px #581914, 1px 3px 1px #581914, 3px 1px 1px #581914, -3px 1px 1px #581914, 1px -3px 1px #581914, -1px 3px 1px #581914, 3px -1px 1px #581914, -1px -3px 1px #581914, -3px -1px 1px #581914;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Archivo Black", sans-serif;
+  color: #581914;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #f4ffd1, -1px -1px 1px #f4ffd1, 1px -1px 1px #f4ffd1, -1px 1px 1px #f4ffd1, 0 1px 1px #f4ffd1, 1px 0 1px #f4ffd1, 0 0 1px #f4ffd1, 0 -1px 1px #f4ffd1, -1px 0 1px #f4ffd1, 3px 3px 1px #581914, -3px 3px 1px #581914, 3px -3px 1px #581914, -3px -3px 1px #581914, 3px 2px 1px #581914, 2px 3px 1px #581914, 2px 2px 1px #581914, 2px -3px 1px #581914, -3px 2px 1px #581914, 3px -2px 1px #581914, -2px 3px 1px #581914, -2px -2px 1px #581914, -3px -2px 1px #581914, -2px -3px 1px #581914, -2px -1px 1px #581914, -1px -2px 1px #581914, -1px 2px 1px #581914, 2px -1px 1px #581914, 1px -2px 1px #581914, -2px 1px 1px #581914, 2px 1px 1px #581914, 1px 2px 1px #581914, 1px 3px 1px #581914, 3px 1px 1px #581914, -3px 1px 1px #581914, 1px -3px 1px #581914, -1px 3px 1px #581914, 3px -1px 1px #581914, -1px -3px 1px #581914, -3px -1px 1px #581914;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Archivo Black", sans-serif;
+  color: #581914;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #f4ffd1, -1px -1px 1px #f4ffd1, 1px -1px 1px #f4ffd1, -1px 1px 1px #f4ffd1, 0 1px 1px #f4ffd1, 1px 0 1px #f4ffd1, 0 0 1px #f4ffd1, 0 -1px 1px #f4ffd1, -1px 0 1px #f4ffd1, 3px 3px 1px #581914, -3px 3px 1px #581914, 3px -3px 1px #581914, -3px -3px 1px #581914, 3px 2px 1px #581914, 2px 3px 1px #581914, 2px 2px 1px #581914, 2px -3px 1px #581914, -3px 2px 1px #581914, 3px -2px 1px #581914, -2px 3px 1px #581914, -2px -2px 1px #581914, -3px -2px 1px #581914, -2px -3px 1px #581914, -2px -1px 1px #581914, -1px -2px 1px #581914, -1px 2px 1px #581914, 2px -1px 1px #581914, 1px -2px 1px #581914, -2px 1px 1px #581914, 2px 1px 1px #581914, 1px 2px 1px #581914, 1px 3px 1px #581914, 3px 1px 1px #581914, -3px 1px 1px #581914, 1px -3px 1px #581914, -1px 3px 1px #581914, 3px -1px 1px #581914, -1px -3px 1px #581914, -3px -1px 1px #581914;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+label,
+input,
+input::placeholder {
+  font-family: "Merriweather", serif;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+input::placeholder {
+  color: #b6b6b6;
+}
+
+button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  min-width: 8rem;
+  max-width: 8rem;
+  font-weight: 700;
+  border: 2px solid #581914;
+  background-color: transparent;
+  color: #581914;
+  border-radius: 6px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #581914;
+  color: #f4ffd1;
+}
+
+.landing-container {
+  overflow: hidden;
+  width: 100vw;
+  height: 100%;
+  background-image: url("../_assets/images/rock-band.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.landing-container header {
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+}
+.landing-container main {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  min-height: 75%;
+}
+.landing-container h1 {
+  padding: 1rem;
+}
+.landing-container img {
+  transform: rotate(45deg);
+  margin-left: 60px;
+}
+.landing-container footer {
+  max-height: 100px;
+  min-height: 100px;
+  background-color: #581914;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

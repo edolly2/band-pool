@@ -1,0 +1,25 @@
+@mixin heading-theme {
+  font-family: $heading-font;
+  color: $primary-clr-dark;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px $accent-clr-light, -1px -1px 1px $accent-clr-light,
+    1px -1px 1px $accent-clr-light, -1px 1px 1px $accent-clr-light,
+    0 1px 1px $accent-clr-light, 1px 0 1px $accent-clr-light,
+    0 0 1px $accent-clr-light, 0 -1px 1px $accent-clr-light,
+    -1px 0 1px $accent-clr-light, 3px 3px 1px $primary-clr-dark,
+    -3px 3px 1px $primary-clr-dark, 3px -3px 1px $primary-clr-dark,
+    -3px -3px 1px $primary-clr-dark, 3px 2px 1px $primary-clr-dark,
+    2px 3px 1px $primary-clr-dark, 2px 2px 1px $primary-clr-dark,
+    2px -3px 1px $primary-clr-dark, -3px 2px 1px $primary-clr-dark,
+    3px -2px 1px $primary-clr-dark, -2px 3px 1px $primary-clr-dark,
+    -2px -2px 1px $primary-clr-dark, -3px -2px 1px $primary-clr-dark,
+    -2px -3px 1px $primary-clr-dark, -2px -1px 1px $primary-clr-dark,
+    -1px -2px 1px $primary-clr-dark, -1px 2px 1px $primary-clr-dark,
+    2px -1px 1px $primary-clr-dark, 1px -2px 1px $primary-clr-dark,
+    -2px 1px 1px $primary-clr-dark, 2px 1px 1px $primary-clr-dark,
+    1px 2px 1px $primary-clr-dark, 1px 3px 1px $primary-clr-dark,
+    3px 1px 1px $primary-clr-dark, -3px 1px 1px $primary-clr-dark,
+    1px -3px 1px $primary-clr-dark, -1px 3px 1px $primary-clr-dark,
+    3px -1px 1px $primary-clr-dark, -1px -3px 1px $primary-clr-dark,
+    -3px -1px 1px $primary-clr-dark;
+}
